@@ -3,9 +3,31 @@ import { QuoteCalculator } from '@/components/QuoteCalculator'
 
 export const metadata: Metadata = {
   title: 'Village Fete Insurance UK 2025 | Community Event Insurance from £66',
-  description: 'Village fete insurance UK - get instant quotes for community events, church fetes, charity fundraisers & school events. Public liability insurance from specialist UK providers. Cover from £66 per event.',
+  description: 'Village fete insurance UK - instant quotes for community events, church fetes & charity fundraisers. Public liability cover from specialist providers. From £66.',
   alternates: {
     canonical: 'https://villagefeteinsurance.quest',
+  },
+  openGraph: {
+    title: 'Village Fete Insurance UK 2025 | Community Event Insurance from £66',
+    description: 'Village fete insurance UK - instant quotes for community events, church fetes & charity fundraisers. Public liability cover from specialist providers. From £66.',
+    url: 'https://villagefeteinsurance.quest',
+    siteName: 'Village Fete Insurance UK',
+    type: 'website',
+    locale: 'en_GB',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=630&fit=crop',
+        width: 1200,
+        height: 630,
+        alt: 'Village fete community event',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Village Fete Insurance UK 2025 | Community Event Insurance from £66',
+    description: 'Village fete insurance UK - instant quotes for community events, church fetes & charity fundraisers. Public liability cover from specialist providers. From £66.',
+    images: ['https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=630&fit=crop'],
   },
 }
 
