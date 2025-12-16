@@ -9,7 +9,7 @@ export function Navigation() {
   const navLinks = [
     { href: '#calculator', label: 'Get Quote' },
     { href: '#coverage', label: 'Coverage' },
-    { href: '#event-types', label: 'Events' },
+    { href: '/articles', label: 'Articles' },
     { href: '#faq', label: 'FAQ' },
   ]
 
