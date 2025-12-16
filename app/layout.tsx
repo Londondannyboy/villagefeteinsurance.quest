@@ -12,43 +12,43 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Yoga Teacher Insurance UK 2025 | Compare Quotes from £15/month",
-    template: "%s | Yoga Teacher Insurance UK"
+    default: "Village Fete Insurance UK 2025 | Community Event Insurance from £66",
+    template: "%s | Village Fete Insurance UK"
   },
-  description: "Yoga teacher insurance UK - compare quotes from specialist providers. Get professional indemnity & public liability insurance for yoga instructors, trainers & studio owners. Quotes from leading insurers.",
+  description: "Village fete insurance UK - get instant quotes for community events, church fetes, charity fundraisers & school events. Public liability insurance from specialist UK providers. Cover from £66 per event.",
   keywords: [
-    "yoga teacher insurance",
-    "yoga teacher insurance uk",
-    "yoga instructor insurance",
-    "insurance for yoga teachers",
-    "insurance for yoga teachers uk",
-    "yoga teachers insurance",
-    "professional indemnity yoga",
-    "yoga teacher liability insurance",
-    "yoga studio insurance",
-    "best yoga teacher insurance uk",
-    "compare yoga teacher insurance",
-    "yoga training insurance"
+    "village fete insurance",
+    "village fete insurance uk",
+    "community event insurance",
+    "church fete insurance",
+    "charity fundraiser insurance",
+    "school fete insurance",
+    "parish council insurance",
+    "village hall insurance",
+    "public liability community events",
+    "event cancellation insurance",
+    "fete insurance uk",
+    "community event cover"
   ],
-  authors: [{ name: "Yoga Teacher Insurance UK" }],
-  creator: "Yoga Teacher Insurance UK",
-  publisher: "Yoga Teacher Insurance UK",
-  metadataBase: new URL("https://yogateacherinsurance.quest"),
+  authors: [{ name: "Village Fete Insurance UK" }],
+  creator: "Village Fete Insurance UK",
+  publisher: "Village Fete Insurance UK",
+  metadataBase: new URL("https://villagefeteinsurance.quest"),
   alternates: {
-    canonical: "https://yogateacherinsurance.quest",
+    canonical: "https://villagefeteinsurance.quest",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://yogateacherinsurance.quest",
-    siteName: "Yoga Teacher Insurance UK",
-    title: "Yoga Teacher Insurance UK 2025 | Compare Quotes",
-    description: "Yoga teacher insurance UK - compare quotes from specialist providers. Get professional indemnity & public liability insurance for yoga instructors & studio owners.",
+    url: "https://villagefeteinsurance.quest",
+    siteName: "Village Fete Insurance UK",
+    title: "Village Fete Insurance UK 2025 | Community Event Insurance",
+    description: "Village fete insurance UK - get instant quotes for community events, church fetes, charity fundraisers & school events. Public liability and event cancellation cover from specialist providers.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yoga Teacher Insurance UK | Compare Quotes",
-    description: "Yoga teacher insurance from UK specialists. Compare quotes for yoga instructors, trainers & studio owners.",
+    title: "Village Fete Insurance UK | Community Event Cover",
+    description: "Village fete insurance from UK specialists. Instant quotes for community events, church fetes, and charity fundraisers.",
   },
   robots: {
     index: true,
@@ -66,40 +66,40 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://yogateacherinsurance.quest/#website",
-  name: "Yoga Teacher Insurance UK",
-  alternateName: ["Yoga Instructor Insurance UK", "Insurance for Yoga Teachers", "Professional Indemnity Yoga"],
-  url: "https://yogateacherinsurance.quest",
-  description: "Yoga teacher insurance UK comparison service. Get professional indemnity & public liability insurance for yoga instructors, trainers & studio owners from specialist UK insurers.",
+  "@id": "https://villagefeteinsurance.quest/#website",
+  name: "Village Fete Insurance UK",
+  alternateName: ["Community Event Insurance UK", "Church Fete Insurance", "Village Hall Event Insurance"],
+  url: "https://villagefeteinsurance.quest",
+  description: "Village fete insurance UK comparison service. Get public liability and event cancellation insurance for community events, church fetes, charity fundraisers & school events from specialist UK insurers.",
   inLanguage: "en-GB",
   publisher: {
     "@type": "Organization",
-    name: "Yoga Teacher Insurance UK",
-    url: "https://yogateacherinsurance.quest"
+    name: "Village Fete Insurance UK",
+    url: "https://villagefeteinsurance.quest"
   }
 }
 
 const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://yogateacherinsurance.quest/#service",
-  name: "Yoga Teacher Insurance UK Comparison",
-  alternateName: "Insurance for Yoga Teachers Comparison",
-  description: "Compare yoga teacher insurance UK quotes from specialist providers. Find professional indemnity & public liability insurance for yoga instructors, trainers & studio owners. Compare Yoga Alliance, Balens, specialist providers and more.",
+  "@id": "https://villagefeteinsurance.quest/#service",
+  name: "Village Fete Insurance UK Comparison",
+  alternateName: "Community Event Insurance Comparison",
+  description: "Compare village fete insurance UK quotes from specialist providers. Find public liability & event cancellation insurance for community events, church fetes, charity fundraisers, school events & parish council events.",
   provider: {
     "@type": "Organization",
-    name: "Yoga Teacher Insurance UK"
+    name: "Village Fete Insurance UK"
   },
   areaServed: {
     "@type": "Country",
     name: "United Kingdom"
   },
-  serviceType: "Yoga Teacher Insurance Comparison",
+  serviceType: "Village Fete Insurance Comparison",
   offers: {
     "@type": "Offer",
     price: "0",
     priceCurrency: "GBP",
-    description: "Free yoga teacher insurance quotes UK"
+    description: "Free village fete insurance quotes UK"
   }
 }
 
@@ -110,8 +110,8 @@ const breadcrumbJsonLd = {
     {
       "@type": "ListItem",
       position: 1,
-      name: "Yoga Teacher Insurance",
-      item: "https://yogateacherinsurance.quest"
+      name: "Village Fete Insurance",
+      item: "https://villagefeteinsurance.quest"
     }
   ]
 }
@@ -119,8 +119,7 @@ const breadcrumbJsonLd = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
-}>) {
+  children: React.ReactNode}>) {
   return (
     <html lang="en">
       <head>
