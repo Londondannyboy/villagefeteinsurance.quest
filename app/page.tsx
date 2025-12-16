@@ -346,8 +346,176 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Articles Section */}
+      <section id="articles" className="py-16 px-4 bg-slate-800/30">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              Village Fete Insurance Guides & Resources
+            </h2>
+            <p className="text-slate-400 max-w-3xl mx-auto">
+              Expert guides covering everything you need to know about village fete insurance, community event cover, and protecting your local celebrations.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Pillar Articles */}
+            <a href="/articles/ultimate-guide-village-fete-insurance-uk" className="bg-gradient-to-br from-green-900/30 to-emerald-900/20 rounded-xl p-6 border border-green-500/30 hover:border-green-400/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <span className="text-xs text-green-400 font-semibold px-2 py-1 bg-green-500/10 rounded">GUIDE</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Ultimate Guide to Village Fete Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Complete 2025 guide covering public liability, event cancellation, costs, and everything you need to protect your community event.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Guide →</span>
+            </a>
+
+            <a href="/articles/do-i-need-insurance-village-fete" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">FAQ</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Do I Need Insurance for a Village Fete?
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Legal requirements, venue obligations, and why village fete insurance is essential for community events.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Learn More →</span>
+            </a>
+
+            <a href="/articles/how-much-does-village-fete-insurance-cost" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">COSTS</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                How Much Does Village Fete Insurance Cost?
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                2025 pricing guide with cost breakdowns by event size, coverage type, and optional extras.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">View Pricing →</span>
+            </a>
+
+            {/* Event Type Articles */}
+            <a href="/articles/summer-fete-insurance" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">EVENT</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Summer Fete Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Outdoor event insurance with weather protection for summer fetes, garden parties, and seasonal celebrations.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Article →</span>
+            </a>
+
+            <a href="/articles/church-fete-insurance" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">EVENT</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Church Fete Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Specialist insurance for parish events, church fundraisers, and religious community celebrations.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Article →</span>
+            </a>
+
+            <a href="/articles/school-fete-insurance" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">EVENT</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                School Fete Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                PTA fundraiser insurance for school fairs, educational events, and primary/secondary school fetes.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Article →</span>
+            </a>
+
+            <a href="/articles/charity-event-insurance-uk" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">EVENT</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Charity Event Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Non-profit fundraiser insurance for charity fetes, volunteer-run events, and fundraising celebrations.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Article →</span>
+            </a>
+
+            <a href="/articles/community-event-insurance" className="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50 hover:border-green-500/50 transition-all group">
+              <div className="flex items-start justify-between mb-3">
+                <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <span className="text-xs text-slate-400 font-semibold px-2 py-1 bg-slate-700/50 rounded">EVENT</span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-300 transition-colors">
+                Community Event Insurance
+              </h3>
+              <p className="text-sm text-slate-400 mb-3">
+                Insurance for street parties, neighborhood gatherings, local festivals, and community celebrations.
+              </p>
+              <span className="text-xs text-green-400 group-hover:text-green-300 font-semibold">Read Article →</span>
+            </a>
+          </div>
+
+          <div className="text-center mt-10">
+            <a href="/articles" className="inline-block text-green-400 hover:text-green-300 font-semibold">
+              View All Articles →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
-      <section id="faq" className="py-16 px-4 bg-slate-800/30">
+      <section id="faq" className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-white text-center mb-12">
             Village Fete Insurance FAQs

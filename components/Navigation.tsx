@@ -27,7 +27,7 @@ export function Navigation() {
               <span className="text-xl font-bold text-white">
                 Village Fete <span className="text-green-400">Insurance</span>
               </span>
-              <p className="text-xs text-slate-400 hidden sm:block">UK Community Event Cover</p>
+              <p className="text-xs text-slate-400 hidden sm:block">Insurance Comparison Service • Beta</p>
             </div>
           </Link>
 

@@ -12,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/articles/summer-fete-insurance`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/articles/church-fete-insurance`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/articles/school-fete-insurance`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/articles/charity-event-insurance-uk`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/articles/community-event-insurance`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
