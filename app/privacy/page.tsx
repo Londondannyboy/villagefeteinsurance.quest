@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Yoga Teacher Insurance UK',
-  description: 'Privacy policy for Yoga Teacher Insurance UK. How we collect, use, and protect your personal data.',
+  title: 'Privacy Policy | Village Fete Insurance UK',
+  description: 'Privacy policy for Village Fete Insurance UK. How we collect, use, and protect your personal data.',
   alternates: {
-    canonical: 'https://yogateacherinsurance.quest/privacy',
+    canonical: 'https://villagefeteinsurance.quest/privacy',
   },
 }
 
@@ -18,7 +18,7 @@ export default function Page() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
           <p className="text-slate-400 mb-4">
-            Yoga Teacher Insurance UK operates the yogateacherinsurance.quest website. We are committed to protecting your privacy and ensuring you have a positive experience on our site.
+            Village Fete Insurance UK operates the villagefeteinsurance.quest website. We are committed to protecting your privacy and ensuring you have a positive experience on our site.
           </p>
         </section>
 
@@ -39,7 +39,7 @@ export default function Page() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-white mb-4">5. Contact Us</h2>
-          <p className="text-slate-400">If you have questions about this Privacy Policy, please contact us at: support@yogateacherinsurance.quest</p>
+          <p className="text-slate-400">If you have questions about this Privacy Policy, please contact us at: support@villagefeteinsurance.quest</p>
         </section>
       </article>
     </div>

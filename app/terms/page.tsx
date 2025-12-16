@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Yoga Teacher Insurance UK',
-  description: 'Terms of Service for Yoga Teacher Insurance UK. Please read our terms and conditions before using our website and insurance comparison services.',
+  title: 'Terms of Service | Village Fete Insurance UK',
+  description: 'Terms of Service for Village Fete Insurance UK. Please read our terms and conditions before using our website and insurance comparison services.',
   alternates: {
-    canonical: 'https://yogateacherinsurance.quest/terms',
+    canonical: 'https://villagefeteinsurance.quest/terms',
   },
 }
 
@@ -32,12 +32,12 @@ export default function Page() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-white mb-4">4. Limitations</h2>
-          <p className="text-slate-400">In no event shall Yoga Teacher Insurance UK or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.</p>
+          <p className="text-slate-400">In no event shall Village Fete Insurance UK or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.</p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-white mb-4">5. Contact Us</h2>
-          <p className="text-slate-400">If you have any questions about these Terms of Service, please contact us at: support@yogateacherinsurance.quest</p>
+          <p className="text-slate-400">If you have any questions about these Terms of Service, please contact us at: support@villagefeteinsurance.quest</p>
         </section>
       </article>
     </div>
