@@ -279,8 +279,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Insurance Providers Section */}
+      <section id="providers" className="py-16 px-4 bg-slate-800/30">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-white text-center mb-4">
+            Leading Community Event Insurance Providers
+          </h2>
+          <p className="text-slate-400 text-center mb-12 max-w-3xl mx-auto">
+            We've researched the top <strong>village fete insurance</strong> providers to help you find specialist coverage for your community event.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700/50 text-center">
+              <h3 className="text-xl font-bold text-green-400 mb-2">ProtectGroup</h3>
+              <p className="text-slate-400 text-sm mb-4">
+                Specialist community event insurance with same-day certificates. Competitive rates from £66 per event.
+              </p>
+              <p className="text-sm text-slate-500">Public Liability + Cancellation</p>
+            </div>
+
+            <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700/50 text-center">
+              <h3 className="text-xl font-bold text-green-400 mb-2">Simply Business</h3>
+              <p className="text-slate-400 text-sm mb-4">
+                Trusted UK broker comparing multiple insurers for the best community event rates.
+              </p>
+              <p className="text-sm text-slate-500">Comprehensive Coverage</p>
+            </div>
+
+            <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700/50 text-center">
+              <h3 className="text-xl font-bold text-green-400 mb-2">Specialist Providers</h3>
+              <p className="text-slate-400 text-sm mb-4">
+                UK insurers specializing in charity events, church fetes, and community gatherings.
+              </p>
+              <p className="text-sm text-slate-500">Flexible Options Available</p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a
+              href="/best-village-fete-insurance-providers"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold rounded-xl hover:from-green-700 hover:to-emerald-700 transition-all shadow-lg hover:shadow-xl"
+            >
+              View Detailed Provider Comparison →
+            </a>
+            <p className="text-slate-400 text-sm mt-4">Compare the top 5 event insurance specialists | Coverage details | Expert analysis</p>
+          </div>
+        </div>
+      </section>
+
       {/* How It Works Section */}
-      <section className="py-16 px-4 bg-slate-800/30">
+      <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-bold text-white text-center mb-12">
             Get Village Fete Insurance in 3 Easy Steps
